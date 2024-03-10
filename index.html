@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+   
+	<title>Q3_Project</title>
+
+	<style>
+		
+		@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+	*{
+  	margin: 0;
+  	padding: 0;
+  	box-sizing: border-box;
+  	font-family: 'Poppins', sans-serif;
+  	scroll-behavior: smooth;
+	} 
+
+	nav{
+	 	display: flex;
+	 	height: 80px;
+	  	width: 100%;
+	  	background: black;
+	  	align-items: center;
+	  	justify-content: space-between;
+	  	padding: 0 50px 0 100px;
+		}
+
+	nav .logo{
+	  color: #fff;
+	  font-size: 35px;
+	  font-weight: 600;
+	}
+
+	nav ul{
+	  display: flex;
+	  flex-wrap: wrap;
+	  list-style: none;
+	}
+
+	nav ul li{
+	  margin: 0 5px;
+	}
+
+	nav ul li a{
+	  color: #black;
+	  text-decoration: none;
+	  font-size: 18px;
+	  font-weight: 500;
+	  padding: 8px 15px;
+	  border-radius: 5px;
+	  letter-spacing: 1px;
+	  transition: all 0.3s ease;
+	}
+	nav ul li a.active,
+	nav ul li a:hover{
+	  color: white;
+  	}
+
+	nav .menu-btn i{
+	  color: #fff;
+	  font-size: 22px;
+	  cursor: pointer;
+	  display: none;
+	}
+
+	@media (max-width: 1000px){
+	nav{
+	   padding: 0 40px 0 50px;
+	  }
+
+	@media (max-width: 920px) {
+ 	nav .menu-btn i{
+    display: block;
+  	}
+	}
+ 	 nav ul{
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    background: #111;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: block;
+    transition: all 0.3s ease;
+  	}
+
+ 
+	nav ul li{
+	    width: 100%;
+	    margin: 40px 0;
+	  }
+	nav ul li a{
+	    width: 100%;
+	    margin-left: -100%;
+	    display: block;
+	    font-size: 20px;
+	    transition: 0.3s ease;
+	  }
+
+	nav ul li a.active,
+	nav ul li a:hover{
+	    color: lightblue;
+	  }
+	}
+	section{
+		min-height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 100px;
+	}
+
+	h1{
+		color: white;
+		font-size: 100px;
+		justify-content: center;
+		background-color: black;
+		border-radius: 8%;
+	}
+
+	h3{
+		color: black;
+		font-size: 30px;
+		justify-content: center;
+		margin-bottom: 70%;
+		margin-top: 5%;
+		padding-left: 40px;
+		padding-right: 40px;
+		line-height: 2.0;
+	}
+
+	h2{
+		color: darkred;
+		font-size: 100px;
+		justify-content: center;
+	}
+
+	h4{
+		color: white;
+		font-size: 30px;
+		justify-content: center;
+		margin-bottom: 70%;
+		margin-top: 5%;
+		padding-left: 40px;
+		padding-right: 40px;
+		line-height: 2.0;
+	}
+
+	#Introduction{
+		background-image: url("https://www.historynet.com/wp-content/uploads/2020/05/GettyImages-918908464.jpg");
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+	#EarlyYears{
+		background-image: url("https://cdn.britannica.com/75/183375-050-4ED7A2A7/Landscape-Herdsmen-oil-panel-collection-Aelbert-Cuyp.jpg");
+		background-repeat: no-repeat;
+		background-size: 100%;
+		opacity: 90%;
+	}
+	#TheCrimeanWar{
+		background-image: url("https://i0.wp.com/illustrationchronicles.com/wp-content/uploads/2020/10/3_IllustrationChronicles_WilliamSimpson_1854_ChargeoftheLightCavalryBrigade_1500.jpg?resize=1500%2C882&ssl=1");
+		background-repeat: no-repeat;
+		background-size: 100%;
+
+	}
+	#ReformingSpirit{
+		background-image: url("https://www.nam.ac.uk/sites/default/files/styles/slice_lg/public/2018-04/1011841_slice.jpg.webp?itok=UkBFyRtU");
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+
+	</style>
+	</head>
+	<body>
+		<nav>
+			<div class="logo">History</div>
+			<ul>
+				<li><a href="#" class="active">Introduction</a></li>
+				<li><a href="#" >Early Years</a></li>
+				<li><a href="#" >The Crimean War</a></li>
+				<li><a href="#" >Reforming Spirit</a></li>
+				<li><a href="https://docs.google.com/document/d/1R1-2rWfsfw1_8croe3IQ0HJbYAQA5X8iGrX69U5mHs0/edit?usp=sharing">Sources</a></li>
+			</ul>
+		</nav> 
+			
+			<section id="Introduction">
+				<h1>Introduction to Florence Nightingale</h1>
+			</section>
+			<section id="EarlyYears">
+
+				<h3>Famous for being the ‘Lady with the Lamp’ who organised the nursing of sick and wounded soldiers during the Crimean War, Florence Nightingale’s far-sighted ideas and reforms have influenced the very nature of modern healthcare. Her greatest achievement was to transform nursing into a respectable profession for women and in 1860, she established the first professional training school for nurses, the Nightingale Training School at St Thomas’ Hospital. Born in an era when middle-class women were expected to simply make a good marriage and raise a family, Florence sensed a ‘calling’ from God at an early age and believed she was destined to do something greater with her life. As a child, she was very academic and particularly interested in mathematics. Her religion gave her a strong sense of moral duty to help the poor and, over time, she held a growing belief that nursing was her God-given vocation. She was also perhaps set to follow the family tradition of reform mindedness, such as the example set by her maternal grandfather who was an anti-slavery campaigner. Paid nursing suffered a reputation as a job for poor, often elderly women, and the popular image was one of drunkenness, bad language and a casual attitude to patients. Despite parental concern, she persisted in her ambition, reading anything she could about health and hospitals. Eventually she persuaded them to allow her to take three months’ nursing training at an inspirational hospital and school in Dusseldorf. Aged 33, she then became superintendent of a hospital for ‘gentlewomen’ in Harley Street, London.</h3>
+
+			</section>
+			<section id="TheCrimeanWar">
+				<h2>The Crimean War</h2>
+			</section>
+			<section id="ReformingSpirit">
+				<h4>In March 1854, reports flooded in about the dreadful conditions and lack of medical supplies suffered by injured soldiers fighting the Crimean War. The Minister of War, a social acquaintance, invited Florence to oversee the introduction of female nurses into the military hospitals in Turkey. With a party of 38 nurses, Florence arrived in Scutari that November and set about organising the hospitals to improve supplies of food, blankets and beds, as well as the general conditions and cleanliness. The comforting sight of her checking all was well at night earned her the name ‘Lady of the Lamp’, along with the undying respect of the British soldiers. The introduction of female nurses to the military hospitals was deemed an outstanding success, Florence returned to Britain a heroine, and donations poured in to the Nightingale Fund. The money collected enabled Florence to continue her reform of nursing in the civil hospitals of Britain after the war. Determined that the medical mistakes of the two-year long war were never repeated, she vividly communicated the needs for medical reform using statistical charts which showed that more men had died from disease than from their wounds. She then instigated a Royal Commission into the health of the army which led to a large number of improvements and saved the lives of many.</h4>
+			</section>
+</body>
+</html>
